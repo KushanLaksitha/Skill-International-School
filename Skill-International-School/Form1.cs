@@ -16,5 +16,38 @@ namespace Skill_International_School
         {
             InitializeComponent();
         }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+               textBox1.Clear();
+               textBox2.Clear();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+			string username = "admin";
+			string password = "admin123";
+			string user = textBox1.Text;
+			string pass = textBox2.Text;
+			if (user.Equals(username) && pass.Equals(password))
+			{
+				dashboard dash = new dashboard();
+				dash.ShowDialog();
+
+			}
+
+
+
+			else
+			{
+				MessageBox.Show("Invalid Username or Password!");
+
+			}
+		}
     }
 }

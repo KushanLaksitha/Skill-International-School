@@ -98,5 +98,4 @@ This project is developed for **educational purposes**.
 Developed by **Kushan Kumarasiri**
 Student Management System – C# & SQL Server
 
-```
-
+- kushanlaksitha32@gmail.com
