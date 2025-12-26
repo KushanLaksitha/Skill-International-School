@@ -1,9 +1,3 @@
-Here is a **clean, professional, and suitable `README.md`** for your project, written clearly for **students, instructors, and GitHub viewers**.
-It matches your use of **Microsoft SQL Server Management Studio 2022** and **Visual Studio 2026**.
-
----
-
-````md
 # Student Management System
 
 A Windows-based **Student Management System** developed using **C# (WinForms)** and **Microsoft SQL Server**, designed to manage student records efficiently with full **CRUD operations** and validation.
@@ -66,9 +60,9 @@ A Windows-based **Student Management System** developed using **C# (WinForms)** 
 ### 2️⃣ Application Setup
 1. Open the project in **Visual Studio 2026**
 2. Update the SQL connection string in the code:
-   ```csharp
+   
    SqlConnection con = new SqlConnection("your_connection_string_here");
-````
+
 
 3. Build and run the application
 
